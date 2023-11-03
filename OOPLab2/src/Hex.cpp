@@ -38,7 +38,7 @@ Hex::Hex(const size_t & n, const unsigned char &t)
 
 Hex::Hex(Hex&& other) noexcept
 {
-    this->hex = other.hex;
+    this->hex = std::move(other.hex);
 }
 
 Hex::Hex(const Hex& other)
@@ -184,7 +184,7 @@ bool Hex::operator>=(const Hex &r) const
             if(this->hex.at(i) < r.hex.at(i)) {
                 return false;
             }
-            else if(this->hex.at(i) > r.hex.at(i) + 1) {
+            else if(this->hex.at(i) > r.hex.at(i)) {
                 return true;
             }
         }

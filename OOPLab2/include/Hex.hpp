@@ -32,8 +32,9 @@ public:
     Hex operator-(const Hex& other);
 
     friend std::ostream &operator<<(std::ostream &out,  Hex &x);
-    friend std::istream &operator>>(std::istream &in,  Hex &x);
 };
 
+
+#include "../src/Hex.cpp"
 
 #endif //HEX_HPP

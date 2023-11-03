@@ -1,7 +1,5 @@
 #include "findDivider.cpp"
 
-//#include "../googletest/googlemock/include/gmock/gmock.h"
-//#include "../googletest/googletest/include/gtest/gtest.h"
 #include <gtest/gtest.h>
 
 TEST(test_01, notFind)
@@ -11,17 +9,17 @@ TEST(test_01, notFind)
 
 TEST(test_02, lessThenZero)
 {
-    ASSERT_TRUE(findDivider(-5, 35)==-1);
+    EXPECT_THROW(findDivider(-5, 35), std::range_error);
 }
 
 TEST(test_03, lessTthenZero2)
 {
-    ASSERT_TRUE(findDivider(5, -35)==-1);
+    EXPECT_THROW(findDivider(5, -35), std::range_error);
 }
 
 TEST(test_04, zeros)
 {
-    ASSERT_TRUE(findDivider(0, 0)==-1);
+    EXPECT_THROW(findDivider(0, 0), std::range_error);
 }
 
 TEST(test_05, norm)
