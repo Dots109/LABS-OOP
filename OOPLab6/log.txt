@@ -1,0 +1,64 @@
+
+Murder ------
+Knight: {x:385, y:122}
+Dragon: {x:370, y:122}
+
+Murder ------
+Dragon: {x:328, y:382}
+Pegas: {x:346, y:381}
+
+Murder ------
+Knight: {x:226, y:377}
+Dragon: {x:252, y:303}
+
+Murder ------
+Knight: {x:280, y:169}
+Dragon: {x:205, y:143}
+
+Murder ------
+Dragon: {x:205, y:143}
+Pegas: {x:174, y:141}
+
+Murder ------
+Dragon: {x:205, y:143}
+Pegas: {x:169, y:144}
+
+Murder ------
+Dragon: {x:205, y:143}
+Pegas: {x:185, y:237}
+
+Murder ------
+Knight: {x:320, y:359}
+Dragon: {x:328, y:382}
+
+Murder ------
+Dragon: {x:79, y:205}
+Pegas: {x:103, y:299}
+
+Murder ------
+Dragon: {x:79, y:205}
+Pegas: {x:29, y:236}
+
+Murder ------
+Knight: {x:3, y:199}
+Dragon: {x:79, y:205}
+
+Murder ------
+Dragon: {x:328, y:382}
+Pegas: {x:381, y:432}
+
+Murder ------
+Dragon: {x:328, y:382}
+Pegas: {x:324, y:459}
+
+Murder ------
+Dragon: {x:37, y:435}
+Pegas: {x:26, y:305}
+
+Murder ------
+Knight: {x:226, y:377}
+Dragon: {x:139, y:493}
+
+Murder ------
+Knight: {x:226, y:377}
+Dragon: {x:37, y:435}
